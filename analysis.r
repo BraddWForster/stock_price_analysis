@@ -73,11 +73,11 @@ date_last_year <- as.character(as.Date(format(Sys.Date(), "%Y-%m-%d")) - 365)
 ################################################################################
 ##  Download the risk-free rate of return
     ##
-    rf <- read_excel("hb3.xlsx")
+    rf <- read_excel("hb3.xlsx")  # download from https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/retail-interest-rates-on-lending-and-deposits
     
 ##  Download the exchange rate
     ##
-    forex <- read_excel("hb1-monthly.xlsx")
+    forex <- read_excel("hb1-monthly.xlsx")  # download monthly data from https://www.rbnz.govt.nz/statistics/series/exchange-and-interest-rates/exchange-rates-and-the-trade-weighted-index
     us_column <- grep("united states",
                       forex[1,],
                       ignore.case = TRUE)

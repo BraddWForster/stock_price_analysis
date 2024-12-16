@@ -1,6 +1,6 @@
 ##    Programme:  R
 ##
-##    Objective: Show mates a bit of code that deals with exchange rate risk and time-value of money for those wishing to own US stocks.
+##    Objective: Show mates a bit of code that deals with exchange rate risk and time-value of money for those wishing to own US stocks from NZ.
 ##
 ##    Plan of  : 
 ##    Attack   :  
